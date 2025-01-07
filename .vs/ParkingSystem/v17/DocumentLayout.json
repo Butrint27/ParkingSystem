@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\twin\\desktop\\parkingsystem\\parkingsystem\\parkingsystem\\core\\entities\\usermanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\usermanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\techcom\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\techcom\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserProfile.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserProfile.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\UserProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:13:14.609Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserManagement\\User.cs",
-              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\UserManagement\\User.cs",
-              "ToolTip": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserManagement\\User.cs",
-              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\UserManagement\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "DocumentMoniker": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\User.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T18:59:49.439Z",
+              "WhenOpened": "2025-01-07T19:08:51.152Z",
               "EditorCaption": ""
             }
           ]
