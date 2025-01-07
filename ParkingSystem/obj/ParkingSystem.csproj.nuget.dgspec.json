@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj": {}
+    "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj": {
+    "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
         "projectName": "ParkingSystem",
-        "projectPath": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
-        "packagesPath": "C:\\Users\\erond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\obj\\",
+        "projectPath": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
+        "packagesPath": "C:\\Users\\Twin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\erond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Twin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\twin\\desktop\\parkingsystem\\parkingsystem\\parkingsystem\\core\\entities\\usermanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\usermanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserManagement\\User.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\UserManagement\\User.cs",
+              "ToolTip": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserManagement\\User.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\UserManagement\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T18:59:49.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
