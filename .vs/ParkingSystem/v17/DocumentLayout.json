@@ -1,29 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\twin\\desktop\\parkingsystem\\parkingsystem\\parkingsystem\\core\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\parkingspacemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\parkingspacemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\availabilitymonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\availabilitymonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\twin\\desktop\\parkingsystem\\parkingsystem\\parkingsystem\\core\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\twin\\desktop\\parkingsystem\\parkingsystem\\parkingsystem\\core\\entities\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\twin\\desktop\\parkingsystem\\parkingsystem\\parkingsystem\\core\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\twin\\desktop\\parkingsystem\\parkingsystem\\parkingsystem\\core\\entities\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\twin\\desktop\\parkingsystem\\parkingsystem\\parkingsystem\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|c:\\users\\erond\\onedrive\\desktop\\parking system\\parkingsystem\\parkingsystem\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66B2F333-AF88-49FC-ADFE-21891A309594}|ParkingSystem\\ParkingSystem.csproj|solutionrelative:parkingsystem\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,10 +51,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ParkingSpaceManager.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\ParkingSpaceManager.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\ParkingSpaceManager.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\ParkingSpaceManager.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\ParkingSpaceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:33:13.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AvailabilityMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\AvailabilityMonitor.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\AvailabilityMonitor.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\AvailabilityMonitor.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\AvailabilityMonitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:32:41.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParkingSpace.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\ParkingSpace.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\ParkingSpace.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\ParkingSpace.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\ParkingSpace.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:31:20.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Invoice.cs",
               "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\Invoice.cs",
-              "ToolTip": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Invoice.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Invoice.cs",
               "RelativeToolTip": "ParkingSystem\\Core\\Entities\\Invoice.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,68 +102,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PaymentMethod.cs",
-              "DocumentMoniker": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\PaymentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\PaymentMethod.cs",
               "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\PaymentMethod.cs",
-              "ToolTip": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\PaymentMethod.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\PaymentMethod.cs",
               "RelativeToolTip": "ParkingSystem\\Core\\Entities\\PaymentMethod.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:28:42.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Payment.cs",
-              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\Payment.cs",
-              "ToolTip": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Payment.cs",
-              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\Payment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:27:36.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Authentication.cs",
-              "DocumentMoniker": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Authentication.cs",
-              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\Authentication.cs",
-              "ToolTip": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Authentication.cs",
-              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\Authentication.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAzwA4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:24:51.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserProfile.cs",
-              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserProfile.cs",
-              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\UserProfile.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA5wAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:13:14.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T19:28:42.615Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Payment.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:27:36.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Authentication.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\Authentication.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\Authentication.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\Authentication.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:24:51.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserProfile.cs",
+              "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\UserProfile.cs",
+              "RelativeToolTip": "ParkingSystem\\Core\\Entities\\UserProfile.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA5wAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:13:14.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\User.cs",
+              "DocumentMoniker": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "ParkingSystem\\Core\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\Core\\Entities\\User.cs",
               "RelativeToolTip": "ParkingSystem\\Core\\Entities\\User.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAYwA0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:08:51.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T19:08:51.152Z"
             }
           ]
         }
