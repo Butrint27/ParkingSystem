@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\TECHCOM\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Twin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
       "projectName": "ParkingSystem",
-      "projectPath": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
-      "packagesPath": "C:\\Users\\TECHCOM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\obj\\",
+      "projectPath": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
+      "packagesPath": "C:\\Users\\Twin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Twin\\Desktop\\ParkingSystem\\ParkingSystem\\ParkingSystem\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\TECHCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Twin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -74,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
