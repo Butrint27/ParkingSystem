@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj": {}
+    "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj": {
+    "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
         "projectName": "ParkingSystem",
-        "projectPath": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
-        "packagesPath": "C:\\Users\\erond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erond\\OneDrive\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\obj\\",
+        "projectPath": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\ParkingSystem.csproj",
+        "packagesPath": "C:\\Users\\TECHCOM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TECHCOM\\Desktop\\Parking System\\ParkingSystem\\ParkingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\erond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TECHCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +48,30 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
