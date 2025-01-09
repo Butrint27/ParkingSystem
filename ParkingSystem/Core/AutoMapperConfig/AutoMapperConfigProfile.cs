@@ -4,7 +4,6 @@ using ParkingSystem;
 using ParkingSystem.Core.Dtos.User;
 using ParkingSystem.Core.Dtos.UserProfile;
 using ParkingSystem.Core.Dtos.ParkingSpot;
-using ParkingSystem.Core.Dtos.Authentication;
 using ParkingSystem.Core.Dtos.PaymentMethod;
 using ParkingSystem.Core.Dtos.Invoice;
 using ParkingSystem.Core.Dtos;
@@ -18,9 +17,6 @@ public class MappingProfile : Profile
  
         CreateMap<UserDto, User>();
         CreateMap<User, UserDto>();
-
-        CreateMap<AuthenticationDto, Authentication>();
-        CreateMap<Authentication, AuthenticationDto>();
       
         CreateMap<UserProfileDto, UserProfile>();
         CreateMap<UserProfile, UserProfileDto>();

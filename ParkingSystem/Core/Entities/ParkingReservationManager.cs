@@ -1,22 +1,15 @@
-using System;
-using System.Collections.Generic;
+using ParkingSystem.Core.Entities;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace ParkingSystem.Core.Entities
+public class ParkingReservationManager
 {
-    public class ParkingReservationManager
-    {
-        [Key]
-        public string Id { get; set; } 
-        public string ParkingSpotSize { get; set; } 
+    [Key]
+    public int Id { get; set; } // ID është tani int
+    public string ParkingSpotSize { get; set; }
 
-        public List<Reservation> Reservations { get; set; } = new List<Reservation>();
+    public List<Reservation> Reservations { get; set; } = new List<Reservation>();
+    public List<ParkingSpot> ParkingSpots { get; set; } = new List<ParkingSpot>();
 
-        public List<ParkingSpot> ParkingSpots { get; set; } = new List<ParkingSpot>();
-
-        public string ManagerName { get; set; } 
-        public string ManagerContact { get; set; } 
-    }
+    public string ManagerName { get; set; }
+    public string ManagerContact { get; set; }
 }

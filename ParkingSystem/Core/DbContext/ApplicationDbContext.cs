@@ -4,7 +4,7 @@ using ParkingSystem.Core.Entities;
 
 namespace ParkingSystem.Core.DbContext
 {
-    public class ApplicationDbContext:IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { 
         
@@ -36,41 +36,41 @@ namespace ParkingSystem.Core.DbContext
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<Reservation>()
-        .HasOne(r => r.ParkingSpot)
-        .WithMany(ps => ps.Reservations)
-        .HasForeignKey(r => r.ParkingSpotId)
-        .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(r => r.ParkingSpot)
+                .WithMany(ps => ps.Reservations)
+                .HasForeignKey(r => r.ParkingSpotId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<ParkingReservationManager>()
-        .HasOne<Reservation>()
-        .WithMany(r => r.ParkingReservationManagers)
-        .HasForeignKey(prm => prm.Id)
-        .OnDelete(DeleteBehavior.Cascade);
+                .HasMany(prm => prm.Reservations) // One ParkingReservationManager has many Reservations
+                .WithOne() // Assumes Reservation doesn't need a direct reference to ParkingReservationManager
+                .HasForeignKey(r => r.Id) // Specify the foreign key in Reservation (e.g., Reservation.ParkingReservationManagerId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<Invoice>()
-        .HasOne(i => i.Payment) // Një Invoice ka një Payment
-        .WithOne()              // Një Payment ka një Invoice
-        .HasForeignKey<Invoice>(i => i.PaymentId) // Çelësi i huaj në Invoice është PaymentId
-        .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(i => i.Payment)
+                .WithOne()
+                .HasForeignKey<Invoice>(i => i.PaymentId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<Payment>()
-        .HasOne(p => p.paymentMethod) // Një Payment ka një PaymentMethod
-        .WithMany(pm => pm.Payments)  // Një PaymentMethod ka shumë Payment
-        .HasForeignKey(p => p.PaymentId) // Çelësi i huaj në Payment është PaymentId
-        .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(p => p.paymentMethod)
+                .WithMany(pm => pm.Payments)
+                .HasForeignKey(p => p.PaymentId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<ParkingSpace>()
-        .HasOne<ParkingSpaceManager>()
-        .WithMany(psm => psm.ParkingSpaces)
-        .HasForeignKey(ps => ps.Id)
-        .OnDelete(DeleteBehavior.Cascade);
+                .HasOne<ParkingSpaceManager>()
+                .WithMany(psm => psm.ParkingSpaces)
+                .HasForeignKey(ps => ps.Id)
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<ParkingSpace>()
-        .HasOne<AvailabilityMonitor>()
-        .WithMany(am => am.ParkingSpaces)
-        .HasForeignKey(ps => ps.Id)
-        .OnDelete(DeleteBehavior.Cascade);
-
+                .HasOne<AvailabilityMonitor>()
+                .WithMany(am => am.ParkingSpaces)
+                .HasForeignKey(ps => ps.Id)
+                .OnDelete(DeleteBehavior.Cascade);
         }
+
     }
 }

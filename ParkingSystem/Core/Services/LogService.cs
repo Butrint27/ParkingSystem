@@ -1,6 +1,4 @@
-﻿using backend_dotnet7.Core.DbContext;
-using backend_dotnet7.Core.Dtos.Log;
-using backend_dotnet7.Core.Entities;
+﻿
 using backend_dotnet7.Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using ParkingSystem.Core.DbContext;

@@ -1,5 +1,7 @@
 ﻿
 
+using backend_dotnet7.Core.Dtos.Auth;
+using backend_dotnet7.Core.Dtos.General;
 using backend_dotnet7.Core.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

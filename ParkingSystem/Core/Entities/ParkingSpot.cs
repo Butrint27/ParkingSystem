@@ -1,20 +1,14 @@
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace ParkingSystem.Core.Entities
+public class ParkingSpot
 {
-    public class ParkingSpot
-    {
-        [Key]
-        public string Id { get; set; }
-        public string Location { get; set; }
-        public string Size { get; set; }
-        public string Status { get; set; }
-        public decimal PricePerHour { get; set; }
+    [Key]
+    public int Id { get; set; } // ID është tani int
+    public string Location { get; set; }
+    public string Size { get; set; }
+    public string Status { get; set; }
+    public decimal PricePerHour { get; set; }
 
-        public List<Reservation> Reservations { get; set; }
-    }
+    // Navigation property
+    public List<Reservation> Reservations { get; set; }
 }
