@@ -14,3 +14,4 @@ namespace ParkingSystem
         public string UpdatedAt { get; set; }
         public decimal PricePerHour { get; set; }
     }
+}

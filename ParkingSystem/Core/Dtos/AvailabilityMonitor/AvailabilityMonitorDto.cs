@@ -2,6 +2,6 @@
 
 public class AvailabilityMonitorDto
 {
-    public List<ParkingSpaceDto> ParkingSpaces { get; set; } = new List<ParkingSpaceDto>();
-    public List<ParkingSpaceDto> AvailableSlots { get; set; } = new List<ParkingSpaceDto>();
+    public DateTime LastCheckedTime { get; set; }
+    public string Status { get; set; }
 }

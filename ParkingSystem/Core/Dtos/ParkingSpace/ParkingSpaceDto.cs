@@ -2,7 +2,7 @@
 {
     public class ParkingSpaceDto
     {
-        public int Id { get; set; }
+     
         public string Location { get; set; }
         public string Size { get; set; }
         public string Status { get; set; }

@@ -2,6 +2,7 @@
 
 public class ParkingSpaceManagerDto
 {
-    public List<ParkingSpaceDto> ParkingSpaces { get; set; } = new List<ParkingSpaceDto>();
-    public AvailabilityMonitorDto AvailableMonitor { get; set; }
+    public string status { get; set; }
+    public string pagesa { get; set; }
+    public string kontakti { get; set; }
 }

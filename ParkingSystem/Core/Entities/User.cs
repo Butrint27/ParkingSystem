@@ -13,6 +13,6 @@ namespace ParkingSystem.Core.Entities
         //lidhja nje me nje
         public UserProfile UserProfile { get; set; }
 
-        public Authentication Authentication { get; set; }
+       
     }
 }

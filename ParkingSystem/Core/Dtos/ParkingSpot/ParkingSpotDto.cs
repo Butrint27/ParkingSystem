@@ -7,7 +7,7 @@ namespace ParkingSystem.Core.Dtos.ParkingSpot
 {
     public class ParkingSpotDto
     {
-        public string Id { get; set; }
+     
         public string Location { get; set; }
         public string Size { get; set; }
         public string Status { get; set; }

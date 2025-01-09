@@ -1,4 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using ParkingSystem.Core.DbContext;
+using System.Text.Json.Serialization;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers().AddJsonOptions(options => {
+    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+});
+
+//DB
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("local");
+    options.UseSqlServer(connectionString);
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

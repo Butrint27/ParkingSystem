@@ -9,7 +9,7 @@ namespace ParkingSystem.Core.Dtos.ParkingReservationManager
 {
     public class ParkingReservationManagerDto
     {
-        public List<ReservationDto> Reservations { get; set; } = new List<ReservationDto>();
-        public List<ParkingSpotDto> ParkingSpots { get; set; } = new List<ParkingSpotDto>();
+        public string ManagerName { get; set; }
+        public string ManagerContact { get; set; }
     }
 }

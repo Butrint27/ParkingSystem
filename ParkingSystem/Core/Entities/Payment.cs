@@ -1,7 +1,10 @@
-﻿namespace ParkingSystem.Core.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ParkingSystem.Core.Entities
 {
     public class Payment
     {
+        [Key]
         public int id { get; set; }
         public float amount { get; set; }
         public DateTime date { get; set; }
